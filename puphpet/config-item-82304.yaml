@@ -1,0 +1,19 @@
+vagrantfile:
+    vm:
+        provider:
+            local:
+                machines:
+                    vflm_machine1:
+                        hostname: telegrambots-vm-sopra
+    proxy:
+        http: 'http://alca.proxy.corp.sopra:8080'
+        https: 'http://alca.proxy.corp.sopra:8080'
+        ftp: 'http://alca.proxy.corp.sopra:8080'
+        no_proxy: '"localhost,127.0.0.1"'
+        enabled: 'true'
+server:
+    install: '1'
+    packages:
+        - vim
+        - expect
+        - connect-proxy

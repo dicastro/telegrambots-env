@@ -1,0 +1,7 @@
+vagrantfile:
+    vm:
+        provider:
+            local:
+                machines:
+                    vflm_machine1:
+                        hostname: telegrambots-vm-sopra
