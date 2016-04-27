@@ -11,3 +11,5 @@ rm -Rf ~/Downloads/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz*
 
 mkdir ~/workspaces
 mkdir ~/repos
+
+ln -s ~/eclipse/eclipse ~/Desktop/eclipse
