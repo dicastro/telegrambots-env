@@ -4,4 +4,4 @@ vagrantfile:
             local:
                 machines:
                     vflm_machine1:
-                        hostname: telegrambots-vm-sopra
+                        hostname: telegrambots-vm-diego

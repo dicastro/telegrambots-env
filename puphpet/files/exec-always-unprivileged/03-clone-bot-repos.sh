@@ -8,7 +8,7 @@ mkdir ~/workspaces/idealistabot-wksp
 git clone git@github.com:dicastro/basicfitbot.git ~/repos/basicfitbot
 mkdir ~/workspaces/basicfitbot-wksp
 
-cat <<EOT > ~/workspaces/repos/basicfitbot/basicfitbot [install].launch
+cat <<EOT > '~/repos/basicfitbot/basicfitbot [install].launch'
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
 <booleanAttribute key="M2_DEBUG_OUTPUT" value="false"/>
@@ -27,7 +27,7 @@ cat <<EOT > ~/workspaces/repos/basicfitbot/basicfitbot [install].launch
 </launchConfiguration>
 EOT
 
-cat <<EOT > ~/workspaces/repos/basicfitbot/basicfitbot-bot/basicfitbot [run].launch
+cat <<EOT > '~/repos/basicfitbot/basicfitbot-bot/basicfitbot [run].launch'
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
