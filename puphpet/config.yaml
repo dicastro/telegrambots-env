@@ -110,6 +110,11 @@ locale:
             - en_GB.UTF-8
             - en_US.UTF-8
         timezone: Europe/Madrid
+keyboard:
+    install: '1'
+    settings:
+        layout: es
+        variant: {  }
 firewall:
     install: '1'
     rules:
